@@ -3,6 +3,13 @@
 ## Overview
 This project demonstrates a Distributed Denial of Service (DoS) attack simulation using Azure Virtual Machines. It also includes packet capture and analysis to detect network anomalies.
 
+## Project Structure
+- azure-vm-setup: Commands for VM setup in Azure.
+- attack-scripts: SYN flood attack script using hping3.
+- pyshark-script: Python script for packet capture and analysis.
+- documentation: Results and reports.
+- requirements.txt: Python dependencies.
+
 ## Features
 - Azure VM setup for attacker and target.
 - SYN flood attack using `hping3`.
